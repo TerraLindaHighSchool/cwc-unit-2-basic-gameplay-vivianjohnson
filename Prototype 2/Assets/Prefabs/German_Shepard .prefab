@@ -2821,6 +2821,9 @@ GameObject:
   - component: {fileID: 8587993674540573620}
   - component: {fileID: 8587993672901078113}
   - component: {fileID: 8221805232100790403}
+  - component: {fileID: 3945492236539614224}
+  - component: {fileID: 1063250580}
+  - component: {fileID: 1063250585}
   m_Layer: 0
   m_Name: 'German_Shepard '
   m_TagString: Untagged
@@ -2921,6 +2924,43 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dffca565cb8d94e29979e7028cb1644f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3945492236539614224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587993674549970662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e871399a575a74a8ec61115da6ebfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1063250580
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587993674549970662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.16775349, y: 0.23696294, z: 0.36521727}
+  m_Center: {x: -0.013722074, y: 0.09271643, z: 0.07006128}
+--- !u!114 &1063250585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8587993674549970662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e871399a575a74a8ec61115da6ebfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &8587993674549970896
